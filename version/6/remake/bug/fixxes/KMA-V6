@@ -1,0 +1,1498 @@
+-- Instances:
+
+local KumaAdminV6 = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Movement = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local SettingsButton = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local SettingsOpener = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local EnableDisable = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local Disable = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Enable = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local SettingsMain = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local SpeedC = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local input = Instance.new("TextBox")
+local UICorner_10 = Instance.new("UICorner")
+local CLose = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local info = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local mainframe = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local BlockPlayers = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local SettingsButton_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UICorner_14 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_15 = Instance.new("UICorner")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local SettingsOpener_2 = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local EnableDisable_2 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local Enable_2 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local SettingsMain_2 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local SpeedC_2 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local input_2 = Instance.new("TextBox")
+local UICorner_21 = Instance.new("UICorner")
+local CLose_2 = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local info_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local mainframe_2 = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local TextLabel_7 = Instance.new("TextLabel")
+local TextLabel_8 = Instance.new("TextLabel")
+local Maininfo = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local info_3 = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel_9 = Instance.new("TextLabel")
+local info_4 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local mainframe_3 = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local TextLabel_10 = Instance.new("TextLabel")
+local TextLabel_11 = Instance.new("TextLabel")
+local info_5 = Instance.new("Frame")
+local UICorner_27 = Instance.new("UICorner")
+local TextLabel_12 = Instance.new("TextLabel")
+local info_6 = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local TextLabel_13 = Instance.new("TextLabel")
+local info_7 = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local TextLabel_14 = Instance.new("TextLabel")
+local info_8 = Instance.new("Frame")
+local UICorner_30 = Instance.new("UICorner")
+local TextLabel_15 = Instance.new("TextLabel")
+local info_9 = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local TextLabel_16 = Instance.new("TextLabel")
+local info_10 = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local TextLabel_17 = Instance.new("TextLabel")
+local Copyright = Instance.new("TextLabel")
+local WereHappy = Instance.new("TextLabel")
+local Fixxed = Instance.new("TextLabel")
+local Object = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local UICorner_33 = Instance.new("UICorner")
+local Commands = Instance.new("Folder")
+local Open = Instance.new("ImageButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+KumaAdminV6.Name = "KumaAdminV6"
+KumaAdminV6.Parent = game.CoreGui -- Fixxed
+KumaAdminV6.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = KumaAdminV6
+Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Main.BackgroundTransparency = 0.500
+Main.Size = UDim2.new(1, 0, 1, 0)
+
+Movement.Name = "Movement"
+Movement.Parent = Main
+Movement.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+Movement.BackgroundTransparency = 0.800
+Movement.Position = UDim2.new(0.0170000009, 0, 0.282000005, 0)
+Movement.Size = UDim2.new(0.195102692, 0, 0.435772359, 0)
+
+UICorner.CornerRadius = UDim.new(0, 15)
+UICorner.Parent = Movement
+
+SettingsButton.Name = "SettingsButton"
+SettingsButton.Parent = Movement
+SettingsButton.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+SettingsButton.BackgroundTransparency = 0.800
+SettingsButton.Position = UDim2.new(0.769230783, 0, 0.796377957, 0)
+SettingsButton.Size = UDim2.new(0.214574978, 0, 0.158700317, 0)
+
+UIAspectRatioConstraint.Parent = SettingsButton
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = SettingsButton
+
+ImageLabel.Parent = SettingsButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.144467935, 0, 0.144467935, 0)
+ImageLabel.Size = UDim2.new(0.759220123, 0, 0.711064219, 0)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9236308842"
+
+UICorner_3.CornerRadius = UDim.new(0, 15)
+UICorner_3.Parent = ImageLabel
+
+UIAspectRatioConstraint_2.Parent = ImageLabel
+
+SettingsOpener.Name = "SettingsOpener"
+SettingsOpener.Parent = ImageLabel
+SettingsOpener.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOpener.BackgroundTransparency = 1.000
+SettingsOpener.Position = UDim2.new(-0.203171283, 0, -0.203171283, 0)
+SettingsOpener.Size = UDim2.new(1.40634239, 0, 1.40634239, 0)
+SettingsOpener.Font = Enum.Font.SourceSans
+SettingsOpener.TextColor3 = Color3.fromRGB(0, 0, 0)
+SettingsOpener.TextSize = 14.000
+SettingsOpener.TextTransparency = 1.000
+
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = SettingsOpener
+
+EnableDisable.Name = "Enable/Disable"
+EnableDisable.Parent = Movement
+EnableDisable.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+EnableDisable.BackgroundTransparency = 0.800
+EnableDisable.Position = UDim2.new(0.0323886015, 0, 0.796377838, 0)
+EnableDisable.Size = UDim2.new(0.710654855, 0, 0.158700421, 0)
+
+UICorner_5.CornerRadius = UDim.new(0, 15)
+UICorner_5.Parent = EnableDisable
+
+Disable.Name = "Disable"
+Disable.Parent = EnableDisable
+Disable.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Disable.BackgroundTransparency = 1.000
+Disable.Size = UDim2.new(1, 0, 0.976488769, 0)
+Disable.Font = Enum.Font.GothamSemibold
+Disable.Text = "Enable/Disable"
+Disable.TextColor3 = Color3.fromRGB(255, 255, 255)
+Disable.TextSize = 14.000
+Disable.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 15)
+UICorner_6.Parent = Disable
+
+Enable.Name = "Enable"
+Enable.Parent = EnableDisable
+Enable.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Enable.BackgroundTransparency = 1.000
+Enable.Size = UDim2.new(1, 0, 0.976488769, 0)
+Enable.Visible = false
+Enable.Font = Enum.Font.GothamSemibold
+Enable.Text = "Enable/Disable"
+Enable.TextColor3 = Color3.fromRGB(255, 255, 255)
+Enable.TextSize = 14.000
+Enable.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 15)
+UICorner_7.Parent = Enable
+
+ImageLabel_2.Parent = Movement
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.255060732, 0, 0.175373137, 0)
+ImageLabel_2.Size = UDim2.new(0.489878535, 0, 0.481343269, 0)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=9236329031"
+
+UIAspectRatioConstraint_3.Parent = ImageLabel_2
+
+TextLabel.Parent = Movement
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.113360323, 0, 0.660447836, 0)
+TextLabel.Size = UDim2.new(0.769230783, 0, 0.074626863, 0)
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Movement"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+SettingsMain.Name = "SettingsMain"
+SettingsMain.Parent = Movement
+SettingsMain.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+SettingsMain.BackgroundTransparency = 0.800
+SettingsMain.Position = UDim2.new(-0.00324292504, 0, 1.07058215, 0)
+SettingsMain.Size = UDim2.new(1.00324285, 0, 0.267861933, 0)
+SettingsMain.Visible = false
+
+UICorner_8.CornerRadius = UDim.new(0, 15)
+UICorner_8.Parent = SettingsMain
+
+TextLabel_2.Parent = SettingsMain
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.0366859138, 0, 0.209952205, 0)
+TextLabel_2.Size = UDim2.new(0.769230783, 0, 0.215213671, 0)
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "Movement Settings"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+SpeedC.Name = "SpeedC"
+SpeedC.Parent = SettingsMain
+SpeedC.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SpeedC.BackgroundTransparency = 1.000
+SpeedC.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SpeedC.Position = UDim2.new(0.690069914, 0, 0.552009523, 0)
+SpeedC.Size = UDim2.new(0.271720767, 0, 0.211237103, 0)
+SpeedC.Font = Enum.Font.GothamSemibold
+SpeedC.Text = "Change"
+SpeedC.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedC.TextScaled = true
+SpeedC.TextSize = 14.000
+SpeedC.TextWrapped = true
+SpeedC.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_9.CornerRadius = UDim.new(0, 15)
+UICorner_9.Parent = SpeedC
+
+input.Name = "input"
+input.Parent = SpeedC
+input.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+input.BackgroundTransparency = 0.900
+input.BorderColor3 = Color3.fromRGB(255, 255, 255)
+input.Position = UDim2.new(-2.40461588, 0, 0, 0)
+input.Size = UDim2.new(0, 142, 0, 16)
+input.Font = Enum.Font.Code
+input.Text = "Enter Speed value Default: (16)"
+input.TextColor3 = Color3.fromRGB(255, 255, 255)
+input.TextScaled = true
+input.TextSize = 14.000
+input.TextWrapped = true
+
+UICorner_10.CornerRadius = UDim.new(0, 15)
+UICorner_10.Parent = input
+
+CLose.Name = "CLose"
+CLose.Parent = SettingsMain
+CLose.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CLose.BackgroundTransparency = 1.000
+CLose.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CLose.Position = UDim2.new(0.854722202, 0, 0.18982695, 0)
+CLose.Size = UDim2.new(0.107068494, 0, 0.221409217, 0)
+CLose.Font = Enum.Font.GothamSemibold
+CLose.Text = "X"
+CLose.TextColor3 = Color3.fromRGB(255, 255, 255)
+CLose.TextScaled = true
+CLose.TextSize = 14.000
+CLose.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0, 15)
+UICorner_11.Parent = CLose
+
+info.Name = "info"
+info.Parent = Movement
+info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+info.BackgroundTransparency = 1.000
+info.Position = UDim2.new(0.797570884, 0, 0.0447761193, 0)
+info.Size = UDim2.new(0.157894731, 0, 0.13059701, 0)
+info.Image = "http://www.roblox.com/asset/?id=9250572502"
+
+UIAspectRatioConstraint_4.Parent = info
+
+mainframe.Name = "mainframe"
+mainframe.Parent = info
+mainframe.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+mainframe.BackgroundTransparency = 0.800
+mainframe.Position = UDim2.new(-5.05148363, 0, -2.9142859, 0)
+mainframe.Size = UDim2.new(6.48005342, 0, 2.34285712, 0)
+mainframe.Visible = false
+
+UICorner_12.CornerRadius = UDim.new(0, 15)
+UICorner_12.Parent = mainframe
+
+TextLabel_3.Parent = mainframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.0640329868, 0, 0.146341458, 0)
+TextLabel_3.Size = UDim2.new(0.769230664, 0, 0.170731694, 0)
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "INFO"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_4.Parent = mainframe
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.0640329868, 0, 0.317073166, 0)
+TextLabel_4.Size = UDim2.new(0.890307009, 0, 0.512195051, 0)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "With the movement setting you can change how fast you are and if you want you can disable your controls!"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+BlockPlayers.Name = "BlockPlayers"
+BlockPlayers.Parent = Main
+BlockPlayers.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+BlockPlayers.BackgroundTransparency = 0.800
+BlockPlayers.Position = UDim2.new(0.234219596, 0, 0.282000005, 0)
+BlockPlayers.Size = UDim2.new(0.195102692, 0, 0.435772359, 0)
+
+UICorner_13.CornerRadius = UDim.new(0, 15)
+UICorner_13.Parent = BlockPlayers
+
+SettingsButton_2.Name = "SettingsButton"
+SettingsButton_2.Parent = BlockPlayers
+SettingsButton_2.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+SettingsButton_2.BackgroundTransparency = 0.800
+SettingsButton_2.Position = UDim2.new(0.769230783, 0, 0.796377957, 0)
+SettingsButton_2.Size = UDim2.new(0.214574978, 0, 0.158700317, 0)
+
+UIAspectRatioConstraint_5.Parent = SettingsButton_2
+
+UICorner_14.CornerRadius = UDim.new(0, 15)
+UICorner_14.Parent = SettingsButton_2
+
+ImageLabel_3.Parent = SettingsButton_2
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.Position = UDim2.new(0.144467935, 0, 0.144467935, 0)
+ImageLabel_3.Size = UDim2.new(0.759220123, 0, 0.711064219, 0)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=9236308842"
+
+UICorner_15.CornerRadius = UDim.new(0, 15)
+UICorner_15.Parent = ImageLabel_3
+
+UIAspectRatioConstraint_6.Parent = ImageLabel_3
+
+SettingsOpener_2.Name = "SettingsOpener"
+SettingsOpener_2.Parent = ImageLabel_3
+SettingsOpener_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SettingsOpener_2.BackgroundTransparency = 1.000
+SettingsOpener_2.Position = UDim2.new(-0.203171283, 0, -0.203171283, 0)
+SettingsOpener_2.Size = UDim2.new(1.40634239, 0, 1.40634239, 0)
+SettingsOpener_2.Font = Enum.Font.SourceSans
+SettingsOpener_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+SettingsOpener_2.TextSize = 14.000
+SettingsOpener_2.TextTransparency = 1.000
+
+UICorner_16.CornerRadius = UDim.new(0, 15)
+UICorner_16.Parent = SettingsOpener_2
+
+EnableDisable_2.Name = "Enable/Disable"
+EnableDisable_2.Parent = BlockPlayers
+EnableDisable_2.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+EnableDisable_2.BackgroundTransparency = 0.800
+EnableDisable_2.Position = UDim2.new(0.0323886015, 0, 0.796377838, 0)
+EnableDisable_2.Size = UDim2.new(0.710654855, 0, 0.158700421, 0)
+
+UICorner_17.CornerRadius = UDim.new(0, 15)
+UICorner_17.Parent = EnableDisable_2
+
+Enable_2.Name = "Enable"
+Enable_2.Parent = EnableDisable_2
+Enable_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Enable_2.BackgroundTransparency = 1.000
+Enable_2.Size = UDim2.new(1, 0, 0.976488769, 0)
+Enable_2.Font = Enum.Font.GothamSemibold
+Enable_2.Text = "Click on settings"
+Enable_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Enable_2.TextSize = 14.000
+Enable_2.TextWrapped = true
+
+UICorner_18.CornerRadius = UDim.new(0, 15)
+UICorner_18.Parent = Enable_2
+
+TextLabel_5.Parent = BlockPlayers
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.113360323, 0, 0.660447836, 0)
+TextLabel_5.Size = UDim2.new(0.769230783, 0, 0.074626863, 0)
+TextLabel_5.Font = Enum.Font.GothamSemibold
+TextLabel_5.Text = "Block Players"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+SettingsMain_2.Name = "SettingsMain"
+SettingsMain_2.Parent = BlockPlayers
+SettingsMain_2.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+SettingsMain_2.BackgroundTransparency = 0.800
+SettingsMain_2.Position = UDim2.new(-0.00324292504, 0, 1.07058215, 0)
+SettingsMain_2.Size = UDim2.new(1.00324285, 0, 0.267861933, 0)
+SettingsMain_2.Visible = false
+
+UICorner_19.CornerRadius = UDim.new(0, 15)
+UICorner_19.Parent = SettingsMain_2
+
+TextLabel_6.Parent = SettingsMain_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.Position = UDim2.new(0.0366859138, 0, 0.209952205, 0)
+TextLabel_6.Size = UDim2.new(0.769230783, 0, 0.215213671, 0)
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "Block Player"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+SpeedC_2.Name = "SpeedC"
+SpeedC_2.Parent = SettingsMain_2
+SpeedC_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SpeedC_2.BackgroundTransparency = 1.000
+SpeedC_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+SpeedC_2.Position = UDim2.new(0.690069914, 0, 0.552009523, 0)
+SpeedC_2.Size = UDim2.new(0.271720767, 0, 0.211237103, 0)
+SpeedC_2.Font = Enum.Font.GothamSemibold
+SpeedC_2.Text = "Block"
+SpeedC_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+SpeedC_2.TextScaled = true
+SpeedC_2.TextSize = 14.000
+SpeedC_2.TextWrapped = true
+SpeedC_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_20.CornerRadius = UDim.new(0, 15)
+UICorner_20.Parent = SpeedC_2
+
+input_2.Name = "input"
+input_2.Parent = SpeedC_2
+input_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+input_2.BackgroundTransparency = 0.900
+input_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+input_2.Position = UDim2.new(-2.40461588, 0, 0, 0)
+input_2.Size = UDim2.new(0, 142, 0, 16)
+input_2.Font = Enum.Font.Code
+input_2.Text = "Enter username"
+input_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+input_2.TextScaled = true
+input_2.TextSize = 14.000
+input_2.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 15)
+UICorner_21.Parent = input_2
+
+CLose_2.Name = "CLose"
+CLose_2.Parent = SettingsMain_2
+CLose_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CLose_2.BackgroundTransparency = 1.000
+CLose_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+CLose_2.Position = UDim2.new(0.854722202, 0, 0.18982695, 0)
+CLose_2.Size = UDim2.new(0.107068494, 0, 0.221409217, 0)
+CLose_2.Font = Enum.Font.GothamSemibold
+CLose_2.Text = "X"
+CLose_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+CLose_2.TextScaled = true
+CLose_2.TextSize = 14.000
+CLose_2.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 15)
+UICorner_22.Parent = CLose_2
+
+ImageLabel_4.Parent = BlockPlayers
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.Position = UDim2.new(0.251012146, 0, 0.175373137, 0)
+ImageLabel_4.Size = UDim2.new(0.489878535, 0, 0.470149249, 0)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=9242985062"
+
+UIAspectRatioConstraint_7.Parent = ImageLabel_4
+
+ImageLabel_5.Parent = ImageLabel_4
+ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_5.BackgroundTransparency = 1.000
+ImageLabel_5.Position = UDim2.new(0.351892143, 0, 0.341433436, 0)
+ImageLabel_5.Size = UDim2.new(0.304647565, 0, 0.312912017, 0)
+ImageLabel_5.Image = "http://www.roblox.com/asset/?id=9242999421"
+ImageLabel_5.ImageColor3 = Color3.fromRGB(255, 112, 112)
+
+UIAspectRatioConstraint_8.Parent = ImageLabel_5
+
+info_2.Name = "info"
+info_2.Parent = BlockPlayers
+info_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+info_2.BackgroundTransparency = 1.000
+info_2.Position = UDim2.new(0.797570884, 0, 0.0447761193, 0)
+info_2.Size = UDim2.new(0.157894731, 0, 0.13059701, 0)
+info_2.Image = "http://www.roblox.com/asset/?id=9250572502"
+
+UIAspectRatioConstraint_9.Parent = info_2
+
+mainframe_2.Name = "mainframe"
+mainframe_2.Parent = info_2
+mainframe_2.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+mainframe_2.BackgroundTransparency = 0.800
+mainframe_2.Position = UDim2.new(-5.05128288, 0, -2.9142859, 0)
+mainframe_2.Size = UDim2.new(6.4798522, 0, 2.34285712, 0)
+mainframe_2.Visible = false
+
+UICorner_23.CornerRadius = UDim.new(0, 15)
+UICorner_23.Parent = mainframe_2
+
+TextLabel_7.Parent = mainframe_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.Position = UDim2.new(0.0640329868, 0, 0.146341458, 0)
+TextLabel_7.Size = UDim2.new(0.769230664, 0, 0.170731694, 0)
+TextLabel_7.Font = Enum.Font.GothamSemibold
+TextLabel_7.Text = "INFO"
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_8.Parent = mainframe_2
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.Position = UDim2.new(0.0640329868, 0, 0.317073166, 0)
+TextLabel_8.Size = UDim2.new(0.890307009, 0, 0.512195051, 0)
+TextLabel_8.Font = Enum.Font.SourceSans
+TextLabel_8.Text = "With the block settings you can be able to block players in-game, this is only visable on your screen btw."
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Maininfo.Name = "Main info"
+Maininfo.Parent = Main
+Maininfo.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+Maininfo.BackgroundTransparency = 0.800
+Maininfo.Position = UDim2.new(0.449859381, 0, 0.281999975, 0)
+Maininfo.Size = UDim2.new(0.533175349, 0, 0.435772359, 0)
+
+UICorner_24.CornerRadius = UDim.new(0, 15)
+UICorner_24.Parent = Maininfo
+
+info_3.Name = "info"
+info_3.Parent = Maininfo
+info_3.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+info_3.BackgroundTransparency = 0.800
+info_3.Position = UDim2.new(0.0294256397, 0, 0.0820895433, 0)
+info_3.Size = UDim2.new(0.895552635, 0, 0.0939396098, 0)
+
+UICorner_25.CornerRadius = UDim.new(0, 15)
+UICorner_25.Parent = info_3
+
+TextLabel_9.Parent = info_3
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.Position = UDim2.new(0.0203437041, 0, 0.243863016, 0)
+TextLabel_9.Size = UDim2.new(0.958935857, 0, 0.47241047, 0)
+TextLabel_9.Font = Enum.Font.GothamSemibold
+TextLabel_9.Text = "Loading"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+info_4.Name = "info"
+info_4.Parent = Maininfo
+info_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+info_4.BackgroundTransparency = 1.000
+info_4.Position = UDim2.new(0.933867157, 0, 0.063432835, 0)
+info_4.Size = UDim2.new(0.157894731, 0, 0.13059701, 0)
+info_4.Image = "http://www.roblox.com/asset/?id=9250572502"
+
+UIAspectRatioConstraint_10.Parent = info_4
+
+mainframe_3.Name = "mainframe"
+mainframe_3.Parent = info_4
+mainframe_3.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+mainframe_3.BackgroundTransparency = 0.800
+mainframe_3.Position = UDim2.new(-16.1462574, 0, -3.08571434, 0)
+mainframe_3.Size = UDim2.new(17.4033966, 0, 2.34285712, 0)
+mainframe_3.Visible = false
+
+UICorner_26.CornerRadius = UDim.new(0, 15)
+UICorner_26.Parent = mainframe_3
+
+TextLabel_10.Parent = mainframe_3
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.Position = UDim2.new(0.0284437016, 0, 0.134146333, 0)
+TextLabel_10.Size = UDim2.new(0.769230664, 0, 0.170731694, 0)
+TextLabel_10.Font = Enum.Font.GothamSemibold
+TextLabel_10.Text = "INFO"
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_11.Parent = mainframe_3
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.Position = UDim2.new(0.0284437016, 0, 0.317073166, 0)
+TextLabel_11.Size = UDim2.new(0.890307009, 0, 0.512195051, 0)
+TextLabel_11.Font = Enum.Font.SourceSans
+TextLabel_11.Text = "Here you can see the half of what we know (about you, about the game), the info will update in .01 mili secconds so you should be able to see the last updates in game, Make sure to rate our service and have fun!"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
+
+info_5.Name = "info"
+info_5.Parent = Maininfo
+info_5.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+info_5.BackgroundTransparency = 0.800
+info_5.Position = UDim2.new(0.0294256397, 0, 0.201492488, 0)
+info_5.Size = UDim2.new(0.895552635, 0, 0.0939396098, 0)
+
+UICorner_27.CornerRadius = UDim.new(0, 15)
+UICorner_27.Parent = info_5
+
+TextLabel_12.Parent = info_5
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.Position = UDim2.new(0.0203437041, 0, 0.243863016, 0)
+TextLabel_12.Size = UDim2.new(0.958935857, 0, 0.47241047, 0)
+TextLabel_12.Font = Enum.Font.GothamSemibold
+TextLabel_12.Text = "Loading"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 14.000
+TextLabel_12.TextWrapped = true
+TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
+
+info_6.Name = "info"
+info_6.Parent = Maininfo
+info_6.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+info_6.BackgroundTransparency = 0.800
+info_6.Position = UDim2.new(0.0294256397, 0, 0.324626863, 0)
+info_6.Size = UDim2.new(0.895552635, 0, 0.0939396098, 0)
+
+UICorner_28.CornerRadius = UDim.new(0, 15)
+UICorner_28.Parent = info_6
+
+TextLabel_13.Parent = info_6
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.Position = UDim2.new(0.0203437041, 0, 0.243863016, 0)
+TextLabel_13.Size = UDim2.new(0.958935857, 0, 0.47241047, 0)
+TextLabel_13.Font = Enum.Font.GothamSemibold
+TextLabel_13.Text = "Loading"
+TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.TextScaled = true
+TextLabel_13.TextSize = 14.000
+TextLabel_13.TextWrapped = true
+TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
+
+info_7.Name = "info"
+info_7.Parent = Maininfo
+info_7.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+info_7.BackgroundTransparency = 0.800
+info_7.Position = UDim2.new(0.0294256397, 0, 0.447761178, 0)
+info_7.Size = UDim2.new(0.895552635, 0, 0.0939396098, 0)
+
+UICorner_29.CornerRadius = UDim.new(0, 15)
+UICorner_29.Parent = info_7
+
+TextLabel_14.Parent = info_7
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.Position = UDim2.new(0.0203437041, 0, 0.243863016, 0)
+TextLabel_14.Size = UDim2.new(0.958935857, 0, 0.47241047, 0)
+TextLabel_14.Font = Enum.Font.GothamSemibold
+TextLabel_14.Text = "Loading"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextScaled = true
+TextLabel_14.TextSize = 14.000
+TextLabel_14.TextWrapped = true
+TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
+
+info_8.Name = "info"
+info_8.Parent = Maininfo
+info_8.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+info_8.BackgroundTransparency = 0.800
+info_8.Position = UDim2.new(0.0294256397, 0, 0.570895493, 0)
+info_8.Size = UDim2.new(0.895552635, 0, 0.0939396098, 0)
+
+UICorner_30.CornerRadius = UDim.new(0, 15)
+UICorner_30.Parent = info_8
+
+TextLabel_15.Parent = info_8
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.Position = UDim2.new(0.0203437041, 0, 0.243863016, 0)
+TextLabel_15.Size = UDim2.new(0.958935857, 0, 0.47241047, 0)
+TextLabel_15.Font = Enum.Font.GothamSemibold
+TextLabel_15.Text = "Loading"
+TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.TextScaled = true
+TextLabel_15.TextSize = 14.000
+TextLabel_15.TextWrapped = true
+TextLabel_15.TextXAlignment = Enum.TextXAlignment.Left
+
+info_9.Name = "info"
+info_9.Parent = Maininfo
+info_9.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+info_9.BackgroundTransparency = 0.800
+info_9.Position = UDim2.new(0.0294256397, 0, 0.694029808, 0)
+info_9.Size = UDim2.new(0.895552635, 0, 0.0939396098, 0)
+
+UICorner_31.CornerRadius = UDim.new(0, 15)
+UICorner_31.Parent = info_9
+
+TextLabel_16.Parent = info_9
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.Position = UDim2.new(0.0203437041, 0, 0.243863016, 0)
+TextLabel_16.Size = UDim2.new(0.958935857, 0, 0.47241047, 0)
+TextLabel_16.Font = Enum.Font.GothamSemibold
+TextLabel_16.Text = "Loading"
+TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.TextScaled = true
+TextLabel_16.TextSize = 14.000
+TextLabel_16.TextWrapped = true
+TextLabel_16.TextXAlignment = Enum.TextXAlignment.Left
+
+info_10.Name = "info"
+info_10.Parent = Maininfo
+info_10.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
+info_10.BackgroundTransparency = 0.800
+info_10.Position = UDim2.new(0.0294256397, 0, 0.820895433, 0)
+info_10.Size = UDim2.new(0.895552635, 0, 0.0939396098, 0)
+
+UICorner_32.CornerRadius = UDim.new(0, 15)
+UICorner_32.Parent = info_10
+
+TextLabel_17.Parent = info_10
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.Position = UDim2.new(0.0203437041, 0, 0.243863016, 0)
+TextLabel_17.Size = UDim2.new(0.958935857, 0, 0.47241047, 0)
+TextLabel_17.Font = Enum.Font.GothamSemibold
+TextLabel_17.Text = "Loading"
+TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.TextScaled = true
+TextLabel_17.TextSize = 14.000
+TextLabel_17.TextWrapped = true
+TextLabel_17.TextXAlignment = Enum.TextXAlignment.Left
+
+Copyright.Name = "Copyright"
+Copyright.Parent = Main
+Copyright.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Copyright.BackgroundTransparency = 1.000
+Copyright.Position = UDim2.new(0.0169938058, 0, 0.923862457, 0)
+Copyright.Size = UDim2.new(0.292137593, 0, 0.0274724085, 0)
+Copyright.Font = Enum.Font.GothamSemibold
+Copyright.Text = "Copyright © Kuma Admin 2022"
+Copyright.TextColor3 = Color3.fromRGB(255, 255, 255)
+Copyright.TextScaled = true
+Copyright.TextSize = 14.000
+Copyright.TextTransparency = 0.770
+Copyright.TextWrapped = true
+Copyright.TextXAlignment = Enum.TextXAlignment.Left
+
+WereHappy.Name = "WereHappy"
+WereHappy.Parent = Main
+WereHappy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WereHappy.BackgroundTransparency = 1.000
+WereHappy.Position = UDim2.new(0.0169938058, 0, 0.949878693, 0)
+WereHappy.Size = UDim2.new(0.292137593, 0, 0.0274724085, 0)
+WereHappy.Font = Enum.Font.SourceSansItalic
+WereHappy.Text = "We're happy to help in all times!"
+WereHappy.TextColor3 = Color3.fromRGB(255, 255, 255)
+WereHappy.TextScaled = true
+WereHappy.TextSize = 14.000
+WereHappy.TextTransparency = 0.770
+WereHappy.TextWrapped = true
+WereHappy.TextXAlignment = Enum.TextXAlignment.Left
+
+Fixxed.Name = "Fixxed"
+Fixxed.Parent = Main
+Fixxed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fixxed.BackgroundTransparency = 1.000
+Fixxed.Position = UDim2.new(0.696298718, 0, 0.923862398, 0)
+Fixxed.Size = UDim2.new(0.292137593, 0, 0.0274724085, 0)
+Fixxed.Font = Enum.Font.SourceSansItalic
+Fixxed.Text = "Version ⋯ 6-04-1"
+Fixxed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fixxed.TextScaled = true
+Fixxed.TextSize = 14.000
+Fixxed.TextTransparency = 0.770
+Fixxed.TextWrapped = true
+Fixxed.TextXAlignment = Enum.TextXAlignment.Right
+
+Object.Name = "Object"
+Object.Parent = Main
+Object.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Object.BackgroundTransparency = 1.000
+Object.Position = UDim2.new(0.696298718, 0, 0.949878693, 0)
+Object.Size = UDim2.new(0.292137593, 0, 0.0274724085, 0)
+Object.Font = Enum.Font.GothamSemibold
+Object.Text = "Object ⋯ ER20 40UT 100P"
+Object.TextColor3 = Color3.fromRGB(255, 255, 255)
+Object.TextScaled = true
+Object.TextSize = 14.000
+Object.TextTransparency = 0.770
+Object.TextWrapped = true
+Object.TextXAlignment = Enum.TextXAlignment.Right
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.942620039, 0, 0.0292683002, 0)
+Close.Size = UDim2.new(0.0273641907, 0, 0.0561635569, 0)
+Close.Font = Enum.Font.GothamSemibold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextTransparency = 0.800
+Close.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0, 15)
+UICorner_33.Parent = Close
+
+Commands.Name = "Commands"
+Commands.Parent = KumaAdminV6
+
+Open.Name = "Open"
+Open.Parent = KumaAdminV6
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.BackgroundTransparency = 1.000
+Open.Position = UDim2.new(0.960505545, 0, 0.866666675, 0)
+Open.Size = UDim2.new(0.0284360182, 0, 0.0569105707, 0)
+Open.Image = "http://www.roblox.com/asset/?id=9250572502"
+Open.ImageTransparency = 0.800
+
+UIAspectRatioConstraint_11.Parent = Open
+
+-- Scripts:
+
+local function OXAI_fake_script() -- SettingsOpener.OpenScript 
+	local script = Instance.new('LocalScript', SettingsOpener)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent:TweenPosition(UDim2.new(0.017, 0,0.037, 0),"Out","Quad")  -- Close Position: 0.017, 0,0.282, 0
+		wait(1)
+		script.Parent.Parent.Parent.Parent.SettingsMain.Visible = true
+	end)
+end
+coroutine.wrap(OXAI_fake_script)()
+local function BRJXNB_fake_script() -- Disable.CDisable 
+	local script = Instance.new('LocalScript', Disable)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		
+		print("Walking: Disabled!")
+		
+		local plr = game.Players.LocalPlayer
+	
+		local playerMod = require(game:GetService("Players").LocalPlayer.PlayerScripts:WaitForChild("PlayerModule"))
+	
+		local controls = playerMod:GetControls()
+	
+		controls:Disable()
+		
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Enable.Visible = true
+	end)
+end
+coroutine.wrap(BRJXNB_fake_script)()
+local function CXPBEH_fake_script() -- Enable.CEnable 
+	local script = Instance.new('LocalScript', Enable)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		print("Walking: Enabled!")
+	
+		local plr = game.Players.LocalPlayer
+	
+		local playerMod = require(game:GetService("Players").LocalPlayer.PlayerScripts:WaitForChild("PlayerModule"))
+	
+		local controls = playerMod:GetControls()
+	
+		controls:Enable()
+	
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Disable.Visible = true
+	end)
+end
+coroutine.wrap(CXPBEH_fake_script)()
+local function PXYVVO_fake_script() -- SpeedC.LocalScript 
+	local script = Instance.new('LocalScript', SpeedC)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = script.Parent.input.Text
+	end)
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		print("Walking speed has been changed to: "..script.Parent.input.Text.."!")
+	end)
+end
+coroutine.wrap(PXYVVO_fake_script)()
+local function UTTF_fake_script() -- CLose.LocalScript 
+	local script = Instance.new('LocalScript', CLose)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		wait(.01)
+		script.Parent.Parent.Parent.Parent.Movement:TweenPosition(UDim2.new(0.017, 0,0.282, 0),"Out","Quad")
+	end)
+end
+coroutine.wrap(UTTF_fake_script)()
+local function RAMMXYJ_fake_script() -- info.HoverEffect 
+	local script = Instance.new('LocalScript', info)
+
+	local HoverEffect = script.Parent
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.mainframe.Visible = true
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.mainframe.Visible = false
+	end)
+end
+coroutine.wrap(RAMMXYJ_fake_script)()
+local function PETGWJ_fake_script() -- SettingsOpener_2.OpenScript 
+	local script = Instance.new('LocalScript', SettingsOpener_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent:TweenPosition(UDim2.new(0.234, 0,0.036, 0),"Out","Quad")  -- Close Position: 0.234, 0,0.282, 0
+		wait(1)
+		script.Parent.Parent.Parent.Parent.SettingsMain.Visible = true
+	end)
+end
+coroutine.wrap(PETGWJ_fake_script)()
+local function KOWF_fake_script() -- SpeedC_2.LocalScript 
+	local script = Instance.new('LocalScript', SpeedC_2)
+
+	while true do
+		local V = script.Parent.input.Text
+		
+		wait(.01)
+		
+		script.Parent.MouseButton1Click:Connect(function()
+			wait(1)
+			game.Players[V]:Destroy()
+			wait(1)
+			game.Players[V]:Destroy()
+			wait(1)
+			print(""..V.." has been blocked!")
+		end)
+		wait(3)
+	end
+	
+end
+coroutine.wrap(KOWF_fake_script)()
+local function ZHOENL_fake_script() -- CLose_2.LocalScript 
+	local script = Instance.new('LocalScript', CLose_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		wait(.01)
+		script.Parent.Parent.Parent.Parent.BlockPlayers:TweenPosition(UDim2.new(0.234, 0,0.282, 0),"Out","Quad")
+	end)
+end
+coroutine.wrap(ZHOENL_fake_script)()
+local function VLGDXWD_fake_script() -- info_2.HoverEffect 
+	local script = Instance.new('LocalScript', info_2)
+
+	local HoverEffect = script.Parent
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.mainframe.Visible = true
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.mainframe.Visible = false
+	end)
+end
+coroutine.wrap(VLGDXWD_fake_script)()
+local function WSANZ_fake_script() -- TextLabel_9.Script 
+	local script = Instance.new('LocalScript', TextLabel_9)
+
+	while true do
+		
+		
+		script.Parent.Text ="Display Name ⋯ "..game.Players.LocalPlayer.DisplayName..""
+		
+		wait(.01)
+		
+	end
+end
+coroutine.wrap(WSANZ_fake_script)()
+local function ECDZBOK_fake_script() -- info_4.HoverEffect 
+	local script = Instance.new('LocalScript', info_4)
+
+	local HoverEffect = script.Parent
+	
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.mainframe.Visible = true
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.mainframe.Visible = false
+	end)
+end
+coroutine.wrap(ECDZBOK_fake_script)()
+local function OGPKRZV_fake_script() -- TextLabel_12.Script 
+	local script = Instance.new('LocalScript', TextLabel_12)
+
+	while true do
+		
+		
+		script.Parent.Text ="UserName ⋯ ".."@"..game.Players.LocalPlayer.Name..""
+		
+		wait(.01)
+		
+	end
+end
+coroutine.wrap(OGPKRZV_fake_script)()
+local function FVEGAN_fake_script() -- TextLabel_13.Script 
+	local script = Instance.new('LocalScript', TextLabel_13)
+
+	while true do
+		
+		script.Parent.Text ="User id ⋯ "..game.Players.LocalPlayer.UserId..""
+		
+		wait(.01)
+		
+	end
+end
+coroutine.wrap(FVEGAN_fake_script)()
+local function QQSA_fake_script() -- TextLabel_14.Script 
+	local script = Instance.new('LocalScript', TextLabel_14)
+
+	while true do
+		
+		script.Parent.Text ="Locale id ⋯ "..game.Players.LocalPlayer.LocaleId..""
+		
+		wait(.01)
+		
+	end
+end
+coroutine.wrap(QQSA_fake_script)()
+local function OISE_fake_script() -- TextLabel_15.Script 
+	local script = Instance.new('LocalScript', TextLabel_15)
+
+	while true do
+		
+		script.Parent.Text ="Server id ⋯ "..game.JobId..""	
+		
+		wait(.01)
+		
+	end
+end
+coroutine.wrap(OISE_fake_script)()
+local function LEFHS_fake_script() -- TextLabel_16.Script 
+	local script = Instance.new('LocalScript', TextLabel_16)
+
+	while true do
+		
+		
+		script.Parent.Text ="Game time ⋯ "..game.Lighting.TimeOfDay..""
+		
+		wait(.01)
+		
+	end
+end
+coroutine.wrap(LEFHS_fake_script)()
+local function TSTBZ_fake_script() -- TextLabel_17.Script 
+	local script = Instance.new('LocalScript', TextLabel_17)
+
+	while true do
+		
+		script.Parent.Text ="Game Clock time ⋯ "..game.Lighting.ClockTime..""
+		
+		wait(.01)
+		
+	end
+end
+coroutine.wrap(TSTBZ_fake_script)()
+local function HTSGEW_fake_script() -- Copyright.LocalScript 
+	local script = Instance.new('LocalScript', Copyright)
+
+	script.Parent.Text ="Copyright © Kuma Admin 2022"
+end
+coroutine.wrap(HTSGEW_fake_script)()
+local function PZKPKPH_fake_script() -- WereHappy.LocalScript 
+	local script = Instance.new('LocalScript', WereHappy)
+
+	script.Parent.Text ="We're happy to help in all times!"
+end
+coroutine.wrap(PZKPKPH_fake_script)()
+local function ZZPWS_fake_script() -- Fixxed.LocalScript 
+	local script = Instance.new('LocalScript', Fixxed)
+
+	script.Parent.Text ="Version ⋯ 6-04-1"
+end
+coroutine.wrap(ZZPWS_fake_script)()
+local function SABRCD_fake_script() -- Object.LocalScript 
+	local script = Instance.new('LocalScript', Object)
+
+	script.Parent.Text ="Object ⋯ ER20 40UT 100P"
+end
+coroutine.wrap(SABRCD_fake_script)()
+local function PPFJ_fake_script() -- Close.Effect 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Lighting.KumaBlur.Size = 24
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 23
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 22
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 21
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 20
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 19
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 18
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 17
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 16
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 15
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 14
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 13
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 12
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 11
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 10
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 9
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 8
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 7
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 6
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 5
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 4
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 3
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 2
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 1
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 0
+		wait(.01)
+	end)
+end
+coroutine.wrap(PPFJ_fake_script)()
+local function LCAXB_fake_script() -- Close.Function 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent:TweenPosition(UDim2.new(0.005, 0,-2, 0),"Out","Quad")
+	end)
+end
+coroutine.wrap(LCAXB_fake_script)()
+local function YLBYJED_fake_script() -- Close.Effect3 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Workspace.CurrentCamera.FieldOfView = 61
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 62
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 63
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 64
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 65
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 66
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 67
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 68
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 69
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 70
+	end)
+end
+coroutine.wrap(YLBYJED_fake_script)()
+local function JHHP_fake_script() -- Close.Effect2 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.TextTransparency = 0.5
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.TextTransparency = 0.8
+	end)
+end
+coroutine.wrap(JHHP_fake_script)()
+local function MKKTMIJ_fake_script() -- Main.PositionHandler 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.Position = UDim2.new(0.005, 0,-2, 0)
+end
+coroutine.wrap(MKKTMIJ_fake_script)()
+local function KVWQ_fake_script() -- Commands.Main 
+	local script = Instance.new('Script', Commands)
+
+	game.Players.PlayerAdded:Connect(function(plr)
+		plr.Chatted:Connect(function(msg)
+			if msg =="!get commands" then
+				print("Waiting for services..")
+				wait(2)
+				print("Available service(HR2) running..")
+				wait(1)
+				loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+				wait(1)
+				print("Kuma admin executed ⋯ Infinite Yield(FRO+)")
+			end
+		end)
+	end)
+	
+	game.Players.PlayerAdded:Connect(function(plr)
+		plr.Chatted:Connect(function(msg)
+			if msg =="!copy messages" then
+				print("Waiting for services..")
+				wait(2)
+				print("Available service(HR2) running..")
+				wait(1)
+				local Action = game.Players:GetPlayers()
+				for i = 1,#Action do
+					Action[i].Chatted:connect(function(Message)
+						game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("[Kuma Message]".."> "..Message, "All")
+					end)
+				end
+			end
+		end)
+	end)
+	
+	game.Players.PlayerAdded:Connect(function(plr)
+		plr.Chatted:Connect(function(msg)
+			if msg =="!get dances" then
+				print("Waiting for services..")
+				wait(2)
+				print("Available service(HR2) running..")
+				wait(1)
+				print("Key: Syntaxbesthub")
+				wait(.01)
+				loadstring(game:HttpGet(('https://raw.githubusercontent.com/Vallater/SyntaxV2/b7a88a7b84174e3c2220c7a8ca477e40699ddd2c/Syntaxontop'),true))()
+			end
+		end)
+	end)
+	
+	game.Players.PlayerAdded:Connect(function(plr)
+		plr.Chatted:Connect(function(msg)
+			if msg =="!get sound panle" then
+				print("Waiting for services..")
+				wait(2)
+				print("Available service(HR2) running..")
+				wait(1)
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/LifeTimeHD7/Admin-Sound-s/main/zeo-s/Admin/Sounds/version/1.15.2/Zeo", true))()
+				wait(1)
+				print("Kuma Admin executed ⋯ Admin Sounds[By Zeo]")
+				wait(.01)
+				print("Bring with F8/Close with F8")
+			end
+		end)
+	end)
+end
+coroutine.wrap(KVWQ_fake_script)()
+local function FAHJW_fake_script() -- KumaAdminV6.CommandsPrint 
+	local script = Instance.new('LocalScript', KumaAdminV6)
+
+	if script.Parent then
+		wait(3)
+		print("Commands:")
+		wait(.01)
+		print("----------------------------")
+		wait(.01)
+		print("|1. !get commands          |")
+		wait(.01)
+		print("|2. !copy messages         |")
+		wait(.01)
+		print("|3. !get dances            |")
+		wait(.01)
+		print("|4. !get sound panle       |")
+		wait(.01)
+		print("|                          |")
+		wait(.01)
+		print("|Copyright © Kuma Admin    |")
+		wait(.01)
+		print("|                          |")
+		wait(.01)
+		print("----------------------------")
+	end
+end
+coroutine.wrap(FAHJW_fake_script)()
+local function TSTQZIJ_fake_script() -- KumaAdminV6.Clone 
+	local script = Instance.new('LocalScript', KumaAdminV6)
+
+	wait(2)
+	
+	local cloneCommands = script.Parent.Commands.Main:Clone()
+	
+	cloneCommands.Parent = game.ServerScriptService
+end
+coroutine.wrap(TSTQZIJ_fake_script)()
+local function FLEJPVC_fake_script() -- Open.Effect 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent.ImageTransparency = 0.5
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent.ImageTransparency = 0.8
+	end)
+end
+coroutine.wrap(FLEJPVC_fake_script)()
+local function NXOVDIM_fake_script() -- Open.Effects2 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Lighting.KumaBlur.Size = 1
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 2
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 3
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 4
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 5
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 6
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 7
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 8
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 9
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 10
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 11
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 12
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 13
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 14
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 15
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 16
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 17
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 18
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 19
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 20
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 21
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 22
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 23
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 24
+		wait(.01)
+		game.Lighting.KumaBlur.Size = 25
+	end)
+end
+coroutine.wrap(NXOVDIM_fake_script)()
+local function PCBMUB_fake_script() -- Open.Functions 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Main:TweenPosition(UDim2.new(0,0,0,0),"Out","Quad")
+	end)
+end
+coroutine.wrap(PCBMUB_fake_script)()
+local function ZFJZXB_fake_script() -- Open.Effects3 
+	local script = Instance.new('LocalScript', Open)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Workspace.CurrentCamera.FieldOfView = 69
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 68
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 67
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 66
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 65
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 64
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 63
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 62
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 61
+		wait(.01)
+		game.Workspace.CurrentCamera.FieldOfView = 60
+	end)
+end
+coroutine.wrap(ZFJZXB_fake_script)()
+local function UPWJLV_fake_script() -- KumaAdminV6.C 
+	local script = Instance.new('LocalScript', KumaAdminV6)
+
+	script.Parent.IgnoreGuiInset = true
+end
+coroutine.wrap(UPWJLV_fake_script)()
+local function HESI_fake_script() -- KumaAdminV6.Blur 
+	local script = Instance.new('LocalScript', KumaAdminV6)
+
+	local newBlur = Instance.new("BlurEffect")
+	
+	newBlur.Parent = game.Lighting
+	newBlur.Size = 0
+	newBlur.Name ="KumaBlur"
+end
+coroutine.wrap(HESI_fake_script)()
